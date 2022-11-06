@@ -1,0 +1,6 @@
+
+I have the same problem here. Downgraded to postcss-loader v3 to work (not ideal, but does the job for now):
+npm install sass
+npm install scss
+npm uninstall postcss-loader --save-dev
+npm install postcss-loader@~3.0.0 --save-dev
