@@ -4,23 +4,25 @@ import Link from '../Link/Link';
 
 const footer = () => {
   return (
-    <footer className=''>
+    <footer className='footer'>
       <div className='container text-light pt-5'>
         <div className='row'>
           <div className='col-sm-6 col-md-6 col-lg-4 mb-5'>
             <div className='footer-title'>
-              <h6>About Us</h6>
+              <h6>Working hours</h6>
             </div>
             <div className='footer-content'>
               <p>
-                <small className='text-muted'>
-                  Aenean suscipit eget mi act fermentum phasellus vulputate
-                  turpis tincidunt. Aenean suscipit eget. Aenean suscipit eget
-                  mi act fermentum phasellus vulputate turpis tincidunt. Aenean
-                  suscipit ege Aenean suscipit eget mi act fermentum phasellus.
-                </small>
+                <h6 className='text-muted'>
+                Saturday to Thursday 
+                </h6>
+                <h6 className='text-muted'>
+                8  - 11.30 AM 
+                </h6>
+                <h6 className='text-muted'>
+                4   - 8.30  PM 
+                </h6>
               </p>
-
             </div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-2 mb-5'>
@@ -34,9 +36,7 @@ const footer = () => {
                     Home
                   </Link>
                 </li>
-                <li>
-                  <Link target='about'>About</Link>
-                </li>
+
 
 
               </ul>
@@ -48,7 +48,7 @@ const footer = () => {
             </div>
             <div className='footer-content'>
               <p>
-                        <a className='text-muted' href="https://google.com" >
+                        <a className='text-muted' href="https://www.3m.com/" >
                         Products From 3M
                         </a>
 

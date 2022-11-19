@@ -26,6 +26,7 @@ const sections = () => {
      
       <Blog />
       <Facts />
+      
       <About62 />
       
       

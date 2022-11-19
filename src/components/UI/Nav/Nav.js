@@ -23,18 +23,21 @@ const Nav = () => {
     });
   }, []);
   return (
-    
 
-      <div className='navbar-nav12'>
-        <div className='navbar-brand'>
-          <img class="navbar-logo-img" src={img11} alt="logo"/>
+
+      <div className='navbar-nav12 '>
+
+         <div className='navbar-brand' href='!#'>
+   
+          <img class="navbar-logo-img-3m " src={img11} alt="logo"/>
+     
         </div>
         
         <div className='navbar-brand' href='!#'>
-          <img class="navbar-logo-img" src={img12} alt="logo"/>
+          <img class="navbar-logo-img h-5" src={img12} alt="logo"/>
         </div>
         <div className='navbar-brand' href='!#'>
-          <img class="navbar-logo-img" src={img13} alt="logo"/>
+          <img class="navbar-logo-img-j" src={img13} alt="logo"/>
         </div>
 
 
